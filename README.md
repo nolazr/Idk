@@ -17,7 +17,7 @@ local aimlockActive = false
 local aimlockEnabled = false
 local aimlockConnection = nil
 local selectedTarget = nil
-local aimlockKey = Enum.KeyCode.Q
+local aimlockKey = Enum.KeyCode.Z
 local smoothness = 0.3
 local maxDistance = 200
 local fovSize = 90
@@ -102,7 +102,7 @@ local FLOAT_BTN_SIZE  = math.floor(62 * SCALE)
 -- ========== CÍRCULO FOV ==========
 local fovCircle = Drawing.new("Circle")
 fovCircle.Visible = false
-fovCircle.Color = Color3.fromRGB(255, 255, 255)
+fovCircle.Color = Color3.fromRGB(255, 0, 255)
 fovCircle.Thickness = 2
 fovCircle.NumSides = 60
 fovCircle.Transparency = 1
